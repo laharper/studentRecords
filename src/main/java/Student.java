@@ -3,7 +3,7 @@ public class Student {
     private String lname;
     private String email;
     private String level;
-    private int[] testScores;
+    private int[] testScores = {0};
 
     //constructor
     public Student (String firstName, String lastName, String emailAddress) {
